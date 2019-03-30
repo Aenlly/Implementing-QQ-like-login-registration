@@ -28,7 +28,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".CodeActivity" />
+        <activity android:name=".CodeActivity" >
+            <intent-filter>
+                <action android:name="code" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".CommonActivity"></activity>
     </application>

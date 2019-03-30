@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".CodeActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/activity_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </include>
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

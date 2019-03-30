@@ -5,5 +5,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CommonActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
 
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:background="@color/colorcommo"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/zcfh"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_back_leftpress"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@id/zcfh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textSize="25sp"
+                android:layout_marginLeft="-95dp"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/colorbaise"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="注册"
+                android:textSize="35sp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="-110dp"
+                android:textColor="@color/colorbaise"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机验证"
+                android:textSize="19sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@color/colorheise"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/group_fold_arrow" />I
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码设置"
+                android:textSize="19sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/group_fold_arrow"/>I
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册完成"
+                android:textSize="19sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"/>
+        </LinearLayout>
+   </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -384,6 +384,11 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorbaise
+color colorcommo
+color colorheise
+color colortk
+color colorzcbj
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -787,6 +792,12 @@ id packed
 id parent
 id parentPanel
 id percent
+id phone
+id phone_dz
+id phone_tk
+id phone_xg
+id phone_yd
+id phone_yzm
 id progress_circular
 id progress_horizontal
 id radio
@@ -846,6 +857,7 @@ id view_more
 id withText
 id wrap
 id wrap_content
+id zcfh
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha

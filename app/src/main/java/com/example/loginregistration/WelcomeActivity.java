@@ -21,6 +21,6 @@ public class WelcomeActivity extends AppCompatActivity {
             public void run() {
                 startActivity(intent);//do something
             }
-        }, 500);//延时1s执行
+        }, 500);//延时0.5s执行
     }
 }
