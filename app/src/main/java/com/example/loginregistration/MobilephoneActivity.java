@@ -48,6 +48,7 @@ public class MobilephoneActivity extends AppCompatActivity {
         });
     }
 
+    //控件实例化
     private void findBy(){
         btn_xg=(Button)findViewById(R.id.phone_xg);
         btn_yzm=(Button)findViewById(R.id.phone_yzm);

@@ -40,11 +40,14 @@
                 android:textSize="25sp" />
 
             <EditText
+                android:id="@+id/code_sryzm"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="20dp"
                 android:hint="请输入验证码"
                 android:background="@null"
+                android:maxLength="4"
+
                 android:textSize="25sp"/>
 
         </LinearLayout>

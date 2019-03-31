@@ -13,6 +13,11 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+    }
+
+    //界面可见时执行
+    protected void onResume(){
+        super.onResume();
         final Intent intent = new Intent();
         intent.setAction("Login");
         Timer timer = new Timer();
@@ -21,6 +26,6 @@ public class WelcomeActivity extends AppCompatActivity {
             public void run() {
                 startActivity(intent);//do something
             }
-        }, 500);//延时0.5s执行
+        }, 1000);//延时1s执行
     }
 }
