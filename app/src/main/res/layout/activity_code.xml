@@ -8,15 +8,86 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <include
-            layout="@layout/activity_common"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorzcbj">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/activity_common"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </include>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/login_input"
+            android:layout_below="@id/image_logo"
+            android:orientation="horizontal">
 
-        </include>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="验证码"
+                android:textSize="25sp" />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:hint="请输入验证码"
+                android:background="@null"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/code_djs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60秒后重新获得验证码"
+                android:textSize="25sp"
+                android:layout_marginLeft="65dp"
+                android:visibility="visible"
+                android:textColor="@color/colorheise"/>
+            <Button
+                android:id="@+id/code_cxhq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="重新获取"
+                android:textSize="25sp"
+                android:textColor="@color/colorheise"
+                android:background="@color/colorbaise"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/code_tjyzm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="提交验证码"
+                android:textSize="25sp"
+                android:textColor="@color/colorheise"
+                android:background="@color/colorbaise"/>
+        </LinearLayout>
     </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btn_register;
 
     TextView tv_more;
-    LinearLayout Laymore;
+    LinearLayout Lay_more;
 
     int count = 0;
 
@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
 
         tv_more = (TextView) findViewById(R.id.tv_login_more);
 
-        Laymore = (LinearLayout) findViewById(R.id.menu_more);
+        Lay_more = (LinearLayout) findViewById(R.id.menu_more);
 
     }
 
@@ -76,10 +76,10 @@ public class LoginActivity extends AppCompatActivity {
         tv_more.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (count == 0) {
-                    Laymore.setVisibility(Laymore.VISIBLE);//让隐藏的部分显示
+                    Lay_more.setVisibility(Lay_more.VISIBLE);//让隐藏的部分显示
                     count++;
                 } else {
-                    Laymore.setVisibility(Laymore.GONE);//隐藏
+                    Lay_more.setVisibility(Lay_more.GONE);//隐藏
                     count--;
                 }
             }

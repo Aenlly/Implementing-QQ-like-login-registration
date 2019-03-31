@@ -17,14 +17,11 @@ import android.view.View.OnClickListener;
 
 public class MobilephoneActivity extends AppCompatActivity {
 
-    Button fh;
-    Button btn_xg;
-    Button btn_yzm;
+    Button fh,btn_xg,btn_yzm;
 
     EditText ed_sjh;
 
-    TextView txt_dz;
-    TextView txt_tk;
+    TextView txt_dz,txt_tk;
 
     CheckBox cb_yd;
 
@@ -54,6 +51,7 @@ public class MobilephoneActivity extends AppCompatActivity {
     private void findBy(){
         btn_xg=(Button)findViewById(R.id.phone_xg);
         btn_yzm=(Button)findViewById(R.id.phone_yzm);
+
         fh=(Button)findViewById(R.id.zcfh);
 
         ed_sjh=(EditText)findViewById(R.id.phone);

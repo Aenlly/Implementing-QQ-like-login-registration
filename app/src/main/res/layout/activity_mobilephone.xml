@@ -31,7 +31,7 @@
                 android:textSize="25sp"/>
             <TextView
                 android:id="@+id/phone_dz"
-                android:layout_width="wrap_content"
+                android:layout_width="155dp"
                 android:layout_height="40dp"
                 android:hint="+86中国大陆"
                 android:paddingLeft="10dp"
