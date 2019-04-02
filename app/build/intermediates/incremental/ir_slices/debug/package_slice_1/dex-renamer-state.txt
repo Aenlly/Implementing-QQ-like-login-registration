@@ -1,4 +1,4 @@
-#Sun Mar 31 22:08:30 CST 2019
-base.0=F\:\\Androidxiangmu\\Loginregistration\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Tue Apr 02 08:49:24 CST 2019
+base.0=D\:\\tang\\loginregistration\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

@@ -860,6 +860,7 @@ id uniform
 id up
 id useLogo
 id view_more
+id wel_tg
 id withText
 id wrap
 id wrap_content

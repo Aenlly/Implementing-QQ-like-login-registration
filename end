@@ -1,0 +1,23 @@
+[33mcommit c9c0bebde6cac579f4e6938230ef6cf4951b65d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: tang <2645274834@qq.com>
+Date:   Mon Apr 1 00:07:26 2019 +0800
+
+    老师的要求完成，自己想添加的内容待完善
+
+[33mcommit 4bea0871e59f6f52ba3ec8f3346229be2b2145a4[m
+Author: tang <2645274834@qq.com>
+Date:   Sun Mar 31 21:08:57 2019 +0800
+
+    重新获取验证码实现，倒计时实现，验证待完成
+
+[33mcommit 12a37d465fd76b7d7ecf5e61fc993eea9bae7d59[m
+Author: tang <2645274834@qq.com>
+Date:   Sat Mar 30 23:11:54 2019 +0800
+
+    注册模块中的手机部分已解决，登录模块单选按钮待完善
+
+[33mcommit a983496f0b82faadb7355a0c5db018c4b664e39e[m
+Author: tang <2645274834@qq.com>
+Date:   Sat Mar 30 17:37:10 2019 +0800
+
+    除验证代码，登录界面完成

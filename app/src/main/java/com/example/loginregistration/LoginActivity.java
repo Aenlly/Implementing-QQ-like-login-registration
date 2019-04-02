@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -16,6 +17,8 @@ public class LoginActivity extends AppCompatActivity {
 
     Button btn_Login;
     Button btn_register;
+
+    ImageView imag_more;
 
     TextView tv_more;
     LinearLayout Lay_more;
@@ -33,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void findViewID() {
+        imag_more=(ImageView)findViewById(R.id.img_more_up);
 
         qqNum = (EditText) findViewById(R.id.et_qqNum);
         qqPwd = (EditText) findViewById(R.id.et_qqPwd);
@@ -75,10 +79,13 @@ public class LoginActivity extends AppCompatActivity {
         findViewID();
         tv_more.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //也可以使用boolean tag=true;来进行判断，需要在全局中定义
                 if (count == 0) {
+                    imag_more.setImageLevel(R.drawable.login_more);
                     Lay_more.setVisibility(Lay_more.VISIBLE);//让隐藏的部分显示
                     count++;
                 } else {
+                    imag_more.setImageLevel(R.drawable.login_more_up);
                     Lay_more.setVisibility(Lay_more.GONE);//隐藏
                     count--;
                 }

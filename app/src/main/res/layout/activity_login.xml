@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -219,5 +220,5 @@
             </LinearLayout>
         </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
